@@ -186,7 +186,7 @@
 		transform: translate3d(0,0,0);
 	/* Set your background with this */
 
-		background: #348cb2 url("images/bg.jpg") bottom;
+		background: #09020C url("images/bg.jpg") bottom;
 		background-repeat: repeat-x;
 		height: 100%;
 		left: 0;
@@ -852,7 +852,7 @@
 
 /* Mobile */
 
-	@media screen and (max-width: 736px) {
+	@media screen and (max-width: 750px) {
 
 		/* Basic */
 
@@ -932,8 +932,9 @@
 		}
 
 		#bg {
-			background-size: 0px auto;
+			background-size: 300px auto;
 			width: 900px;
+			height: 1000px;
 		}
 
 	/* Header */
