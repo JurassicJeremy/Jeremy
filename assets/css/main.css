@@ -260,8 +260,9 @@
 	}
 
 	#bg {
-		background-size: 2250px auto;
+		background-size: 2250px ;
 		width: 6750px;
+
 	}
 
 /* Overlay */
@@ -852,7 +853,7 @@
 
 /* Mobile */
 
-	@media screen and (max-width: 750px) {
+	@media screen and (max-width: 736px) {
 
 		/* Basic */
 
@@ -934,7 +935,6 @@
 		#bg {
 			background-size: 300px auto;
 			width: 900px;
-			height: 1000px;
 		}
 
 	/* Header */
