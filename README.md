@@ -1,2 +1,0 @@
-# Jeremy
-Jeremy's Site
