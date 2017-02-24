@@ -144,24 +144,26 @@
 /* BG */
 
 	#bg {
-		-moz-transition: opacity 2s ease-in-out;
-		-webkit-transition: opacity 2s ease-in-out;
-		-ms-transition: opacity 2s ease-in-out;
-		transition: opacity 2s ease-in-out;
+		-moz-transition: opacity 4s ease-in-out;
+		-webkit-transition: opacity 4s ease-in-out;
+		-ms-transition: opacity 4s ease-in-out;
+		transition: opacity 4s ease-in-out;
 		height: 100%;
 		left: 0;
-		opacity: 0.35;
+		opacity: 0.25;
 		position: fixed;
 		top: 0;
 		width: 100%;
 		z-index: 1;
-	}
+		
+}
+
 
 		#bg div {
-			-moz-transition: opacity 4s ease, visibility 5s;
-			-webkit-transition: opacity 4s ease, visibility 5s;
-			-ms-transition: opacity 4s ease, visibility 5s;
-			transition: opacity 4s ease, visibility 5s;
+			-moz-transition: opacity 2.2s ease, visibility 4s;
+			-webkit-transition: opacity 2.2s ease, visibility 4s;
+			-ms-transition: opacity 2.2s ease, visibility 4s;
+			transition: opacity 2.2s ease, visibility 4s;
 			background-size: cover;
 			height: 100%;
 			left: 0;
@@ -170,6 +172,9 @@
 			top: 0;
 			visibility: hidden;
 			width: 150%;
+			
+			
+			
 		}
 
 			#bg div.visible {
@@ -225,6 +230,7 @@
 			-webkit-transform: translateX(0);
 			-ms-transform: translateX(0);
 			transform: translateX(0);
+			
 		}
 
 		100% {
